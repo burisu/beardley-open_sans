@@ -1,0 +1,5 @@
+#!/bin/bash
+cd package
+rm -f *~ */*~
+jar cvf ../vendor/java/jasperreports-open_sans.jar *
+cd ..
