@@ -1,6 +1,6 @@
 # Beardley::OpenSans
 
-TODO: Write a gem description
+Supplies Open Sans fonts for JasperReports
 
 ## Installation
 
