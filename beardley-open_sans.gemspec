@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["burisu@oneiros.fr"]
   spec.summary       = %q{Provides Open Sans for Beardley}
   spec.description   = %q{Permits to use Open Sans and Open Sans Light fonts}
-  spec.homepage      = "http://github.com/burisu/beardley-open_sans"
+  spec.homepage      = "http://github.com/ekylibre/beardley-open_sans"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z lib vendor README.md LICENSE.txt`.split("\x0")

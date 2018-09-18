@@ -19,10 +19,21 @@
        <pdfEmbedded>true</pdfEmbedded>
    </fontFamily>
 
-   <fontFamily name="Open Sans Bold">
+   <fontFamily name="Open Sans Semibold">
        <normal>fonts/OpenSans-Semibold.ttf</normal>
        <bold>fonts/OpenSans-ExtraBold.ttf</bold>
        <italic>fonts/OpenSans-SemiboldItalic.ttf</italic>
+       <boldItalic>fonts/OpenSans-ExtraBoldItalic.ttf</boldItalic>
+       <pdfEncoding>Identity-H</pdfEncoding>
+       <pdfEmbedded>true</pdfEmbedded>
+   </fontFamily>
+
+   <!-- Missing Heavy weight to have similar difference between normal and bold
+     weight in Open Sans Bold -->
+   <fontFamily name="Open Sans Bold">
+       <normal>fonts/OpenSans-Bold.ttf</normal>
+       <bold>fonts/OpenSans-ExtraBold.ttf</bold>
+       <italic>fonts/OpenSans-BoldItalic.ttf</italic>
        <boldItalic>fonts/OpenSans-ExtraBoldItalic.ttf</boldItalic>
        <pdfEncoding>Identity-H</pdfEncoding>
        <pdfEmbedded>true</pdfEmbedded>
